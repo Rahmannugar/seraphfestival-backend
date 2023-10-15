@@ -72,7 +72,7 @@ const register = (req, res) => {
       name: lastname + " " + firstname,
       intro: `Congrats, you've successfully registered for Seraph festivals, your entry number is ${Math.floor(
         Math.random() * 100000
-      )}\nEvent venue - Tafawa Balewa Square, Awolowo Rd, Onikan, Lagos Island.\nEvent Date - 10th, November, 2024`,
+      )}<br>Event venue - Tafawa Balewa Square, Awolowo Rd, Onikan, Lagos Island.<br>Event Date - 10th, November, 2024`,
     },
   };
 
