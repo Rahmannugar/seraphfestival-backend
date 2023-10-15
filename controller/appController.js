@@ -72,7 +72,8 @@ const register = (req, res) => {
       name: lastname + " " + firstname,
       intro: `Congrats, you've successfully registered for Seraph festivals, your entry number is ${Math.floor(
         Math.random() * 100000
-      )}`,
+      )}
+      Event venue - Tafawa Balewa Square, Awolowo Rd, Onikan, Lagos Island. Event Date - 10th, November, 2024`,
     },
   };
 
