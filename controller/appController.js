@@ -24,8 +24,8 @@ const signUp = async (req, res) => {
     from: '"Fred Foo 👻" <foo@example.com>', // sender address
     to: "bar@example.com, baz@example.com", // list of receivers
     subject: "Hello ✔", // Subject line
-    text: `You've successfully registered for Seraph Festival 2024`, // plain text body
-    html: `<b>You've successfully registered for Seraph Festival 2024</b>`, // html body
+    text: `You've successfully registered for Seraph Festival 2025`, // plain text body
+    html: `<b>You've successfully registered for Seraph Festival 2025</b>`, // html body
   };
 
   transporter
