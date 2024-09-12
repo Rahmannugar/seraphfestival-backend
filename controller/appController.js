@@ -35,7 +35,7 @@ const signUp = async (req, res) => {
 
       // Send response after sending the email
       res.status(201).json({
-        msg: "Congrats, You've successfully registered for Seraph festivals, you should receive a confirmation email soon. Event venue - Tafawa Balewa Square, Awolowo Rd, Onikan, Lagos Island. Event Date - 10th, November, 2024",
+        msg: "Congrats, You've successfully registered for Seraph festivals, you should receive a confirmation email soon. Event venue - Tafawa Balewa Square, Awolowo Rd, Onikan, Lagos Island. Event Date - 10th, November, 2025",
         info: info.messageId,
         preview: nodemailer.getTestMessageUrl(info),
       });
@@ -72,7 +72,7 @@ const register = (req, res) => {
       name: lastname + " " + firstname,
       intro: `Congrats, you've successfully registered for Seraph festivals, your entry number is ${Math.floor(
         Math.random() * 100000
-      )}<br>Event venue - Tafawa Balewa Square, Awolowo Rd, Onikan, Lagos Island.<br>Event Date - 10th, November, 2024.`,
+      )}<br>Event venue - Tafawa Balewa Square, Awolowo Rd, Onikan, Lagos Island.<br>Event Date - 10th, November, 2025.`,
     },
   };
 
